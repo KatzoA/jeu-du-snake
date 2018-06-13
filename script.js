@@ -5,4 +5,9 @@ window.onload = function () {
     canvas.height = 600;
     canvas.style.border = "1px solid";
     document.body.appendChild(canvas)
+
+    // design du rectangle
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = "#ff0000";
+    ctx.fillRect(30, 30, 100, 50);
 }
